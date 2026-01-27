@@ -1,16 +1,19 @@
 export default function Navbar() {
 
-    return(<>
+    return (<>
+        <header className="fixed top-0 flex items-center w-full h-12 px-10 bg-[#367DED] z-50">
 
-    <nav className="flex justify-between items-center fixed text-center w-full left-1/2 -translate-x-1/2 h-12 px-10 bg-[#367DED] font-extralight text-white text-xl">
-        <ul> CT </ul>
-        <ul className="flex gap-4">
-            <li>Início</li>
-            <li>Serviços</li>
-            <li>Contato</li>
-        </ul>
-    </nav>
+            <nav aria-label="Navegação principal"
+                className=" flex w-full justify-between  font-light text-white text-xl ">
 
-    
+                <a href="">CT</a>
+
+                <ul className="flex gap-4 ">
+                    <li> <a href="">Início</a> </li>
+                    <li> <a href="">Serviços</a> </li>
+                    <li> <a href="">Contato</a> </li>
+                </ul>
+            </nav>
+        </header>
     </>)
 }

@@ -1,3 +1,8 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important; /* blue-500 */
+}
+
 #root {
   margin: 0 auto;
   text-align: center;
