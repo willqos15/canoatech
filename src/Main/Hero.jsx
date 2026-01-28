@@ -18,7 +18,7 @@ export default function Hero() {
     return (<>
 
 
-        <section className="bg-[#367DED] min-h-screen flex justify-center rounded-b-full w-full flex-col items-center  text-white mt-12">
+        <section id="hero" className="bg-[#367DED] min-h-screen flex justify-center rounded-b-full w-full flex-col items-center  text-white mt-12">
 
             <h1 className='font-extrabold text-8xl'>CANOA TECH</h1>
             <h2 className='text-5xl font-extralight'>Navegando em soluções</h2>

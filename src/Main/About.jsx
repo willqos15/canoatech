@@ -14,7 +14,9 @@ export default function About() {
                         O QUE É A <strong className='text-[#367DED]'>CANOA TECH</strong>?
                     </h2>
                     <p className='text-2xl pt-10 font-light text-[#46689f]'>
-                        É uma iniciativa de desenvolvimento tecnológico focada em criar soluções digitais personalizadas.
+                        É uma iniciativa criado pelo desenvolvedor <strong> William Queiroz de Oliveira Souza</strong> focada em criar soluções digitais personalizadas.
+
+                
                     </p>
                 </div>
     
@@ -30,7 +32,7 @@ export default function About() {
                         QUEM <strong className='text-[#367DED]'>ATENDEMOS</strong>?
                     </h2>
                     <p className='text-2xl pt-10 font-light text-[#46689f]'>
-                        Pequenas e médias empresas, profissionais autônomos, empreendedores e associações de diferentes setores.
+                        Pequenas e médias empresas, profissionais autônomos, empreendedores e associações de <strong>Altamira - Pará, Região Xingu</strong> e de outras localidades.
                     </p>
                 </div>
     

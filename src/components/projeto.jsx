@@ -9,11 +9,11 @@ export default function Projeto({ titulo, descricao, lista, imagem }) {
 
     return (<>
 
-        <section className=' relative max-w-full overflow-visible bg-[#367DED] flex flex-col justify-center items-center text-white py-5 my-1'>
+        <article className=' relative max-w-full overflow-visible bg-[#367DED] flex flex-col  justify-center items-center text-white pt-10 py-5 mb-20'>
 
-            <h2 className='text-4xl font-extrabold '>
+            <h3 className='text-4xl font-extrabold '>
                 {titulo}
-            </h2>
+            </h3>
 
             <div className='flex flex-row items-center gap-2 text-left'>
                 <p className='w-80 bg-white text-[#46689f]  p-3 rounded-md m-5'>
@@ -37,7 +37,7 @@ export default function Projeto({ titulo, descricao, lista, imagem }) {
                 ))}
             </Swiper>
 
-        </section>
+        </article>
 
     </>)
 }

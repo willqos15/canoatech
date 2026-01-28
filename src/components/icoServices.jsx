@@ -4,11 +4,11 @@ export default function IcoServices({ titulo, ico }) {
 
         <div className='flex flex-col gap-y-1 justify-center items-center'>
 
-            <div className='bg-[#367DED] h-30 w-30 rounded-full flex justify-center items-center text-white text-[80px]'>
+            <span className='bg-[#367DED] h-30 w-30 rounded-full flex justify-center items-center text-white text-[80px]'>
                 {ico}
-            </div>
+            </span>
 
-            <p>{titulo}</p>
+            <h3>{titulo}</h3>
 
         </div>
 
