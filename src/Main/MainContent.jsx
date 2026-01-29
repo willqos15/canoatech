@@ -1,17 +1,17 @@
 import About from "./About"
 import Contact from "./Contact"
-import Hero from "./Hero"
-import Projects from "./Projects"
+import Home from "./Home"
+import Solutions from "./Solutions"
 import Services from "./Services"
 
 export default function MainContent() {
 
     return(
     <>
-    <Hero/>
+    <Home/>
     <About/>
     <Services/>
-    <Projects/>
+    <Solutions/>
     <Contact/>
     </>)
 }

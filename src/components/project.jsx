@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-export default function Projeto({ titulo, descricao, lista, imagem }) {
+export default function Project({ titulo, descricao, lista, imagem }) {
 
     return (<>
 

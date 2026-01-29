@@ -1,15 +1,15 @@
-import Projeto from '../components/projeto';
+import Project from '../components/project';
 
-export default function Projects() {
+export default function Solutions() {
     return (
 
-        <section id="solutions">
+        <section id="solucoes" className='scroll-mt-12 mt-40'>
 
-            <h2 className='text-4xl font-extrabold text-[#367DED] py-4 pt-18'>
+            <h2 className='text-4xl font-extrabold text-[#367DED] py-4 pt-4'>
                 SOLUÇÕES
             </h2>
 
-            <Projeto
+            <Project
                 titulo="ASSISTENTE VIRTUAL DE FEEDBACKS"
                 descricao="Um chat de atendimento exclusivo para registrar a opinião dos seus clientes.<br /> As experiências são catalogadas permitindo que você entenda melhor o seu negócio."
                 lista={<ul>
@@ -21,7 +21,7 @@ export default function Projects() {
                 imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png"]}
             />
 
-            <Projeto
+            <Project
                 titulo="ACHADOS E PERDIDOS"
                 descricao="Sistema online para organizar, controlar e devolver itens com agilidade, ideal para escolas e pequenas empresas."
                 lista={<ul>
@@ -33,7 +33,7 @@ export default function Projects() {
                 imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173422_lyyhb2.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173519_lexfba.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695023/Captura_de_tela_2025-12-25_173555_nwdhrr.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173534_mhv4to.png"]}
             />
 
-            <Projeto
+            <Project
                 titulo="JOGOS ESCOLARES"
                 descricao="Transforme o conteúdo da sua grade curricular em dinâmicas gamificadas em grupo que aumentam o engajamento e a participação em sala de aula."
                 lista={<ul>

@@ -1,8 +1,8 @@
 export default function About() {
     return(<>
 
-    <section id='sobre'
-                className='flex mx-auto justify-center items-center flex-row w-3xl text-left my-40'>
+    <section id='services'
+                className='flex mx-auto justify-center items-center flex-row w-3xl text-left py-40'>
     
                 <svg
                     className='h-64'

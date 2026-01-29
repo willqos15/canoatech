@@ -1,6 +1,33 @@
 .swiper-button-next,
 .swiper-button-prev {
-  color: white !important; /* blue-500 */
+  color: white !important;
+}
+
+.navlink {
+  position: relative;
+  font-weight: 300;
+  transition: font-weight 0.3s ease;
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: center;
+  height: 2px;
+  width: 0;
+  background-color: currentColor;
+  transition: width 0.5s ease;
+}
+
+.navlink:hover {
+  font-weight: 500;
+}
+
+.navlink:hover::after {
+  width: 100%;
 }
 
 #root {
