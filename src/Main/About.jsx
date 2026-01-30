@@ -1,19 +1,20 @@
+import IcoBusin from "../components/icons/icobusin"
+import IcoQuestion from "../components/icons/icoquestion"
+
 export default function About() {
     return(<>
 
-    <section id='services'
-                className='flex mx-auto justify-center items-center flex-row w-3xl text-left py-40'>
+    <section id='sobre'
+                className='scroll-mt-12 flex mx-auto justify-center items-center sm:flex-row flex-col lg:w-3xl md:w-2xl w-full text-left sm:py-40 py-10'>
+                    
+                <IcoQuestion className='lg:h-64 md:h-40 h-20'/>    
     
-                <svg
-                    className='h-64'
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.125 8.875C10.125 7.83947 10.9645 7 12 7C13.0355 7 13.875 7.83947 13.875 8.875C13.875 9.56245 13.505 10.1635 12.9534 10.4899C12.478 10.7711 12 11.1977 12 11.75V13" stroke="#367DED" strokeWidth="1.5" strokeLinecap="round"></path> <circle cx="12" cy="16" r="1" fill="#367DED"></circle> <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#367DED" strokeWidth="1.5" strokeLinecap="round"></path> </g></svg>
-    
-    
-                <div className='mx-10 w-140'>
-                    <h2 className="font-extrabold pt-5 text-4xl text-[#46689f]">
-                        O QUE É A <strong className='text-[#367DED]'>CANOA TECH</strong>?
+                <div className='mx-10 sm:w-140 w-11/12 sm:text-left text-center'>
+                    <h2 className="
+                    font-extrabold pt-5 text-2xl text-[#46689f]">
+                        O QUE É A <strong className='text-[#367DED] '>CANOA TECH</strong>?
                     </h2>
-                    <p className='text-2xl pt-10 font-light text-[#46689f]'>
+                    <p className='sm:text-2xl text-md sm:pt-10 pt-3 font-light text-[#46689f]'>
                         É uma iniciativa criado pelo desenvolvedor <strong> William Queiroz de Oliveira Souza</strong> focada em criar soluções digitais personalizadas.
 
                 
@@ -24,21 +25,19 @@ export default function About() {
     
     
             <section
-                className='flex mx-auto justify-center items-center flex-row w-3xl h-fit text-left'>
+                className='flex mx-auto justify-center items-center sm:flex-row flex-col w-full text-left'>
     
     
-                <div className='mx-10 w-140'>
-                    <h2 className="font-extrabold  text-4xl text-[#46689f]">
+                <div className='sm:order-1 order-2 px-10 sm:text-left text-center sm:w-140 w-full'>
+                    <h2 className="font-extrabold  sm:text-4xl text-2xl text-[#46689f]">
                         QUEM <strong className='text-[#367DED]'>ATENDEMOS</strong>?
                     </h2>
-                    <p className='text-2xl pt-10 font-light text-[#46689f]'>
-                        Pequenas e médias empresas, profissionais autônomos, empreendedores e associações de <strong>Altamira - Pará, Região Xingu</strong> e de outras localidades.
+                    <p className='sm:text-2xl text-md sm:pt-10 pt-3 font-light text-[#46689f]'>
+                        Pequenas e médias empresas, autônomos, empreendedores, organizações e associações de <strong>Altamira - Pará, Região Xingu</strong> e de outras localidades.
                     </p>
                 </div>
-    
-                <svg
-                    className='h-64'
-                    viewBox="0 0 91 91" enableBackground="new 0 0 91 91" id="Layer_1" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M38.391,56.001c-5.693-1.266-10.791-4.121-14.814-8.086c-6.549,3.213-9.785,7.955-9.785,14.494v22.193 c3.148,1.465,11.26,4.762,22.541,5.967l-2.637-2.109c-0.832-0.664-1.225-1.74-1.008-2.783L38.391,56.001z" fill="#367DED"></path> <path d="M45.01,51.079c13.783,0,25-11.295,25-25.174s-11.217-25.172-25-25.172 c-13.775,0-24.982,11.293-24.982,25.172S31.234,51.079,45.01,51.079z" fill="#367DED"></path> <polygon fill="#367DED" points="43.977,56.978 38.59,85.118 45.242,90.437 51.881,85.122 46.414,56.978 "></polygon> <path d="M66.475,47.896c-3.943,3.895-8.932,6.709-14.492,8.016l5.803,29.758c0.219,1.047-0.172,2.123-1.002,2.791 l-2.496,1.996c6.957-0.83,14.496-2.648,22.398-5.959V62.409C76.686,55.862,73.309,51.114,66.475,47.896z" fill="#367DED"></path> </g> </g> </g></svg>
+
+                <IcoBusin className='sm:order-2 order-1 lg:h-64 md:h-40 h-24 mb-3'/>
     
             </section>
 

@@ -33,11 +33,20 @@
 #root {
   margin: 0 auto;
   text-align: center;
+  height: 100dvh;
+  overflow-y: auto;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+  background-color: #ffff;
+  scroll-behavior: smooth;
+
 }
 
-body {
-  
-  background-color: #ffff;
+body, html {
+  min-height: 100dvh;
+  overflow: hidden;
+  background-color: #367DED;
+
 }
 
 *{font-family: "Nunito", sans-serif;

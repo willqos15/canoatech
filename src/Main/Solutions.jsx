@@ -1,17 +1,24 @@
+
 import Project from '../components/project';
 
+
 export default function Solutions() {
+
+   
     return (
 
-        <section id="solucoes" className='scroll-mt-12 mt-40'>
+        <section  id="solucoes" className='scroll-mt-12 sm:mt-40 mt-0'>
 
-            <h2 className='text-4xl font-extrabold text-[#367DED] py-4 pt-4'>
+            <h2 className='sm:text-4xl text-2xl font-extrabold text-[#367DED] py-4 pt-4'>
                 SOLUÇÕES
             </h2>
 
+            
+            
+
             <Project
                 titulo="ASSISTENTE VIRTUAL DE FEEDBACKS"
-                descricao="Um chat de atendimento exclusivo para registrar a opinião dos seus clientes.<br /> As experiências são catalogadas permitindo que você entenda melhor o seu negócio."
+                descricao="Um chat de atendimento exclusivo para registrar a opinião dos seus clientes. As experiências são catalogadas permitindo que você entenda melhor o seu negócio."
                 lista={<ul>
                     <li>✅ Chat automatizado com I.A.</li>
                     <li>✅ Acesso ao histórico de conversas </li>

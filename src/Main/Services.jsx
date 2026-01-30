@@ -9,11 +9,11 @@ import IcoServices from '../components/icoServices';
 export default function Services() {
     return(<>
 
-       <section id="servicos" className='bg-[#f0eefc] mt-40 py-20 text-[#46689f]'>
+       <section id="servicos" className='bg-[#f0eefc] sm:mt-40 mt-20 py-20 text-[#46689f]'>
     
-                <h2 className='text-4xl font-extrabold text-[#367DED]'>SERVIÇOS</h2>
+                <h2 className='sm:text-4xl text-2xl font-extrabold text-[#367DED]'>SERVIÇOS</h2>
     
-                <div className='grid grid-cols-3 w-fit mx-auto gap-8 whitespace-nowrap py-8 text-xl font-bold'>
+                <div className='grid sm:grid-cols-3 grid-cols-2 w-fit mx-auto lg:gap-x-8 gap-x-2 gap-y-8 whitespace-nowrap py-8 text-xl font-bold'>
     
     
                         <IcoServices ico={<TbWorld />}
@@ -25,7 +25,7 @@ export default function Services() {
                         />
     
                         <IcoServices ico={<FaGear />}
-                        titulo="Sistemas personalizados"
+                        titulo="Sistemas digitais"
                         />
     
                         <IcoServices ico={<PiHeadCircuit />}

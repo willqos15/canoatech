@@ -1,7 +1,8 @@
 
 import './App.css'
-import Footer from './components/Footer'
+import FooterBar from './components/footerbar'
 import Navbar from './components/navbar'
+import WhatsFixed from './components/whatsfixed'
 import MainContent from './Main/MainContent'
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
   return (
     <>
     <Navbar/>
+    
     <MainContent/>
-    <Footer/>
+    <WhatsFixed/>
+    <FooterBar/>
      
     </>
   )
