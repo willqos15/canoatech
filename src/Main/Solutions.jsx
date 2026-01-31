@@ -7,7 +7,7 @@ export default function Solutions() {
    
     return (
 
-        <section  id="solucoes" className='scroll-mt-12 sm:mt-40 mt-0'>
+        <section  id="solucoes" className='scroll-mt-12 mt-40'>
 
             <h2 className='sm:text-4xl text-2xl font-extrabold text-[#367DED] py-4 pt-4'>
                 SOLUÇÕES
@@ -17,7 +17,7 @@ export default function Solutions() {
             
 
             <Project
-                titulo="ASSISTENTE VIRTUAL DE FEEDBACKS"
+                titulo="CHATBOT DE FEEDBACKS"
                 descricao="Um chat de atendimento exclusivo para registrar a opinião dos seus clientes. As experiências são catalogadas permitindo que você entenda melhor o seu negócio."
                 lista={<ul>
                     <li>✅ Chat automatizado com I.A.</li>
@@ -25,7 +25,7 @@ export default function Solutions() {
                     <li>✅ Organização com data e hora </li>
                     <li>✅ Calculo do nível de satisfação</li>
                 </ul>}
-                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png"]}
+                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_222925_sszory.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_223034_zh6nar.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_233818_zl6juu.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1767753617/Captura_de_tela_2026-01-06_233836_by8618.png"]}
             />
 
             <Project
@@ -37,7 +37,7 @@ export default function Solutions() {
                     <li>✅ Modo Administrador </li>
                     <li>✅ Controle centralizado de objetos </li>
                 </ul>}
-                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173422_lyyhb2.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173519_lexfba.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695023/Captura_de_tela_2025-12-25_173555_nwdhrr.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173534_mhv4to.png"]}
+                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173422_lyyhb2.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173519_lexfba.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1766695024/Captura_de_tela_2025-12-25_173534_mhv4to.png"]}
             />
 
             <Project
@@ -49,7 +49,7 @@ export default function Solutions() {
                     <li>✅ Treinamento Incluso </li>
                     <li>✅ Relatórios das partidas em Word </li>
                 </ul>}
-                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_133952_w9xapf.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502490/Captura_de_tela_2026-01-15_153930_ju7dmb.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153720_oa9j0k.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153747_hxchmf.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153804_bev9xl.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502490/Captura_de_tela_2026-01-15_153828_wzhvql.png"]}
+                imagem={["https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_133952_w9xapf.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502490/Captura_de_tela_2026-01-15_153930_ju7dmb.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153720_oa9j0k.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153747_hxchmf.png", "https://res.cloudinary.com/drklvmtqp/image/upload/v1768502489/Captura_de_tela_2026-01-15_153804_bev9xl.png", ]}
             />
 
         </section>

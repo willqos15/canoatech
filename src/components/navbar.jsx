@@ -1,6 +1,6 @@
 import logo from '../../public/logo.svg'
 
-
+import IcoLogo from "../components/icons/icologo";
 
 
 export default function Navbar() {
@@ -14,10 +14,11 @@ export default function Navbar() {
                 items-center font-light text-white text-xl">
 
                 <a href="#inicio" className="sm:flex hidden">
-                    <img src={logo} alt="Canoa Tech" className='h-10 w-10' />
+                    <IcoLogo className="h-8 w-8"/>
+                    {/* <img src={logo} alt="Canoa Tech" className='h-10 w-10' /> */}
                 </a>
 
-                <ul className="flex sm:gap-4 gap-2 ">
+                <ul className="flex gap-5 ">
                     <li> <a className="navlink" href="#inicio">Inicio</a> </li>
                     <li> <a className="navlink" href="#servicos">Serviços</a> </li>
                     <li> <a className="navlink" href="#solucoes">Soluções</a> </li>

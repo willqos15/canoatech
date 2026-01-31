@@ -9,7 +9,7 @@ import IcoServices from '../components/icoServices';
 export default function Services() {
     return(<>
 
-       <section id="servicos" className='bg-[#f0eefc] sm:mt-40 mt-20 py-20 text-[#46689f]'>
+       <section id="servicos" className='bg-[#f0eefc] sm:mt-40 mt-40 py-10 text-[#46689f] scroll-mt-8'>
     
                 <h2 className='sm:text-4xl text-2xl font-extrabold text-[#367DED]'>SERVIÇOS</h2>
     

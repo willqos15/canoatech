@@ -1,17 +1,19 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { GrContact } from "react-icons/gr";
+import logo from '../../public/logo.svg'
+import IcoLogo from "../components/icons/icologo";
 
 export default function Contact() {
     return (<section
         id="contato"
-        className="text-[#46689f] flex sm:flex-row flex-col items-center justify-center px-10 sm:py-10 mx-auto sm:my-25 py-5 mb-0 scroll-mt-12 ">
+        className="text-[#46689f] flex sm:flex-row flex-col items-center justify-center px-10 py-10 mx-auto sm:my-25  my-25 scroll-mt-12 ">
 
 
 
 
-        
-            <GrContact  className="lg:text-[200px] sm:text-[150px] text-8xl pb-5 text-[#367DED]" />
+        <IcoLogo className={'text-[#367DED] sm:w-80 sm:h-80 w-40 h-40'}/>
+            {/* <GrContact  className="lg:text-[200px] sm:text-[150px] text-8xl pb-5 text-[#367DED]" /> */}
 
             <div className="sm:w-140 w-full">
                 <h2 className="sm:text-4xl text-2xl font-extrabold text-[#367DED] ">AGENDE UMA CONVERSA </h2>

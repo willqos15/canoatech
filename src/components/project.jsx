@@ -18,7 +18,7 @@ export default function Project({ titulo, descricao, lista, imagem }) {
 
 
 
-        <article className=' relative max-w-full overflow-visible bg-[#367DED] flex flex-col  justify-center items-center text-white py-5 mb-10'>
+        <article className=' relative max-w-full overflow-visible bg-[#367DED] flex flex-col  justify-center items-center text-white py-5 mb-2'>
 
             <h3 className='sm:text-4xl text-xl px-5 pb-5 font-extrabold '>
                 {titulo}
