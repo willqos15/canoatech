@@ -1,9 +1,10 @@
 const IcoLogo = ({ className }) => (
 
-<svg xmlns="http://www.w3.org/2000/svg" className={className} xmlSpace="preserve" version="1.1"
+<svg xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" className={className} xmlSpace="preserve" version="1.1"
 viewBox="0 0 2000 2000"
  xmlnsXlink="http://www.w3.org/1999/xlink"
  xmlnsxodm="http://www.corel.com/coreldraw/odm/2003">
+
 
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>

@@ -1,12 +1,11 @@
-
-
 export default function Home() {
 
     return (<>
 
         <section id="inicio" className="bg-[#367DED] xl:min-h-screen sm:min-h-150  flex justify-center rounded-b-full w-full flex-col items-center  text-white sm:py-20 pt-20 pb-10 -mt-px">
 
-            <h1 className='font-extrabold lg:text-8xl sm:text-7xl text-4xl'>CANOA TECH</h1>
+            <h1 className='font-extrabold lg:text-8xl sm:text-7xl text-4xl'>
+                CANOA TECH</h1>
             <h2 className='lg:text-5xl sm:text-4xl text-xl font-extralight'>Navegando em soluções</h2>
 
             <a

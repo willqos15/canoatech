@@ -7,11 +7,11 @@ import Services from "./Services"
 export default function MainContent() {
 
     return(
-    <>
+    <main>
     <Home/>
     <About/>
     <Services/>
     <Solutions/>
     <Contact/>
-    </>)
+    </main>)
 }
