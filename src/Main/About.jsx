@@ -17,7 +17,7 @@ export default function About() {
                         O QUE É A <strong className='text-[#367DED] '>CANOA TECH</strong>?
                     </h3>
                     <p className='sm:text-2xl text-md sm:pt-10 pt-3 font-light text-[#46689f]'>
-                        É uma iniciativa criado pelo desenvolvedor <strong> William Queiroz de Oliveira Souza</strong> focada em criar soluções digitais personalizadas.
+                        É uma iniciativa criada pelo desenvolvedor <strong> William Queiroz de Oliveira Souza</strong> focada em criar soluções digitais personalizadas.
 
                 
                     </p>
